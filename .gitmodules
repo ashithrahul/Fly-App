@@ -1,0 +1,6 @@
+[submodule "Fly-Backend"]
+	path = Fly-Backend
+	url = https://github.com/ashithrahul/Fly-Backend.git
+[submodule "Fly-Frontend"]
+	path = Fly-Frontend
+	url = https://github.com/ashithrahul/Fly-Frontend.git
