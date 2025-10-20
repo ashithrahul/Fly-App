@@ -44,6 +44,30 @@ Techstack
 2. **Add needed env:**
    As per the Docker Compose few env variable are expected, create .env file and add required env variable
 
+   Create a `.env` file in the `Fly-Backend` directory:
+
+     ```env
+     # Database Configuration
+     MYSQL_ROOT_PASSWORD=<pass>
+     MYSQL_DATABASE=<name>
+     MYSQL_USER=<user>
+     MYSQL_PASSWORD=<pass>
+     
+     # Backend Configuration
+     DB_HOST=mysql
+     DB_USER=<db user>
+     DB_PASSWORD=<db pass>
+     DB_NAME=<db name>
+     DB_PORT=3306
+     PORT=3000
+     NODE_ENV=production
+     FRONTEND_URL=<hoisted url>
+     
+     # Frontend Configuration (for future use)
+     VITE_API_URL=<api url>
+     
+     ```
+
 3. **Start all services:**
    ```bash
    docker-compose up -d
