@@ -59,7 +59,7 @@ Techstack
      DB_PASSWORD=<db pass>
      DB_NAME=<db name>
      DB_PORT=3306
-     PORT=3000
+     PORT=<port>
      NODE_ENV=production
      FRONTEND_URL=<hoisted url>
      
