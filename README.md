@@ -128,27 +128,22 @@ After successful installation, you can access:
 
 Create a `.env` file in the `Fly-Backend` directory:
 
-```env
-# Database Configuration
-MYSQL_ROOT_PASSWORD=<pass>
-MYSQL_DATABASE=<name>
-MYSQL_USER=<user>
-MYSQL_PASSWORD=<pass>
-
-# Backend Configuration
-DB_HOST=mysql
-DB_USER=<db user>
-DB_PASSWORD=<db pass>
-DB_NAME=<db name>
-DB_PORT=3306
-PORT=3000
-NODE_ENV=production
-FRONTEND_URL=<hoisted url>
-
-# Frontend Configuration (for future use)
-VITE_API_URL=<api url>
-
-```
+  ```env
+    # Database Configuration
+    DB_NAME=fly
+    DB_USER=flyuser
+    DB_PASSWORD=your_password
+    DB_HOST=localhost
+    DB_PORT=3306
+    
+    # Server Configuration
+    PORT=1001
+    NODE_ENV=development
+    
+    # CORS Configuration
+    FRONTEND_URL=http://localhost:3000
+  
+  ```
 ### Manual Database Setup
 
 Use the [sql dump](https://github.com/ashithrahul/Fly-App/blob/main/items_backup.sql) file to prepopulate the data, Since data will be empty in the initial setup 
