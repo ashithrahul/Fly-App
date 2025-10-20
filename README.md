@@ -44,7 +44,7 @@ Techstack
 2. **Add needed env:**
    As per the Docker Compose few env variable are expected, create .env file and add required env variable
 
-   Create a `.env` file in the `Fly-Backend` directory:
+   Create a `.env` file in the directory:
 
      ```env
      # Database Configuration
