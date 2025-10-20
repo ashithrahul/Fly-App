@@ -82,9 +82,9 @@ Use the induvidual repos [Fly-Frontend](https://github.com/ashithrahul/Fly-Front
    npm run dev
    ```
 
-4. ** Other Setup:**
+4. **Other Setup:**
    - Install MySQL
-   - Added needed .env for the Fly-Frontend/.env`
+   - Added needed .env for the `Fly-Frontend/.env`
    - Update environment variables in `Fly-Backend/.env`
 
 ## Expected URLs
