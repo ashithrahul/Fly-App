@@ -5,9 +5,16 @@ Added the Fullstack application Searchify With 2 Page
 2. Search result page
 
 
-The App is Hoised in AWS
+The App is Hoised in AWS  **[LIVE Demo](http://54.237.209.95/)**
 
-[LIVE Demo](http://54.237.209.95/)
+
+
+### Video recording
+https://github.com/user-attachments/assets/639eb4f6-475d-43d1-9588-742e6284ad2d
+
+
+https://github.com/user-attachments/assets/5db3bb69-d2ec-487e-9023-3295d36da38d
+
 
 ## Summary
 
@@ -75,9 +82,9 @@ Use the induvidual repos [Fly-Frontend](https://github.com/ashithrahul/Fly-Front
    npm run dev
    ```
 
-4. ** Other Setup:**
+4. **Other Setup:**
    - Install MySQL
-   - Added needed .env for the Fly-Frontend/.env`
+   - Added needed .env for the `Fly-Frontend/.env`
    - Update environment variables in `Fly-Backend/.env`
 
 ## Expected URLs
